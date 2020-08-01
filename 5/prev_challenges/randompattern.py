@@ -14,7 +14,7 @@ sequence = [3,2,2]
 random.seed(22041997)
 
 # How many rows?
-row_len = 100
+row_len = 100000
 # How many columns?
 column_len = 20
 
