@@ -22,12 +22,12 @@ class Person:
 
 class Student(Person):
     
-    def __init__(self, name, age, studentID,  height=None, weight=None):
+    def __init__(self, name, age, student_id,  height=None, weight=None):
         Person.__init__(self, name, age, height, weight)
-        self.studentID = studentID
+        self.student_id = student_id
 
 kevin = Student("Kevin", 15, "M00541972", 1.7, 45)
-print(kevin.name, "is", kevin.age, "years old, and is student nº", kevin.studentID)
+print(kevin.name, "is", kevin.age, "years old, and is student nº", kevin.student_id)
 kevin.dance()
 print("--------")
 kelly = Person("Kelly", 45)
@@ -37,6 +37,6 @@ kelly.dance()
 print("There are", Person.count, "people.")
 
 print("What is", kelly.name, " ID? It is:")
-print(kelly.studentID)
+print(kelly.student_id)
 
 

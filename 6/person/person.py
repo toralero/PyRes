@@ -14,7 +14,7 @@ class Person:
             print("My weight is", self.weight, "kilograms.")
 
     def dance(self):
-        print(self.name, "danced his heart out.")
+        print(self.name, "danced his/her heart out.")
 
 steve = Person("Steve", 24)
 steve.introduce()
